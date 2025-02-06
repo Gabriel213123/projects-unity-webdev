@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('backgroundWebsite.webp');
+    background-size: cover;
+    background-size: cover;
+}
+
+#chattitle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Impact;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.calculator-ai{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    overflow-y: auto;
+    background-color: rgba(165, 1, 165, 0.831);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+
+#chat #person{
+    text-align: end;
+    margin: 25px;
+    color: white;
+    font-size: 30px;
+    font-family: impact;
+    -webkit-text-stroke: .2px black;
+}
+
+#chat #bot{
+    text-align: start;
+    margin: 25px;
+    color: purple;
+    font-size: 30px;
+    font-family: impact;
+    -webkit-text-stroke: .2px black;
+    animation-name: bot-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bot-anim{
+    0%{
+        font-size: 30px;
+    }
+
+    100%{
+        font-size: 0px;
+    }
+}
+
+.calculator-ai .chat-text{
+    position: sticky;
+    top: 90%;
+    margin-left: 50px;
+}
+
+.calculator-ai .chat-text input::-webkit-inner-spin-button,
+.calculator-ai .chat-text input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.calculator-ai .chat-text input {
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: text;
+    -moz-appearance: none;
+}
+
+.calculator-ai .chat-text button{
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: -4px;
+    cursor: pointer;
+    font-family: Arial;
+    color: white;
+    background-color: purple;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-71%);
+}
