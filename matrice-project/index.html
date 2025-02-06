@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator matrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Matrice Calculator: Sarrus</h1>
+    <h1 id="mtr">det A =</h1>
+<div class="full-matrice-container">
+    <div class="matrice-container">
+        <input type="number" placeholder="number1" id="numar1" oninput="ChangeNumber1()">
+        <input type="number" placeholder="number2" id="numar2" oninput="ChangeNumber2()">
+        <input type="number" placeholder="number3" id="numar3" oninput="ChangeNumber3()">
+        <input type="number" placeholder="number4" id="numar4" oninput="ChangeNumber4()">
+        <input type="number" placeholder="number5" id="numar5" oninput="ChangeNumber5()">
+        <input type="number" placeholder="number6" id="numar6" oninput="ChangeNumber6()">
+        <input type="number" placeholder="number7" id="numar7">
+        <input type="number" placeholder="number8" id="numar8">
+        <input type="number" placeholder="number9" id="numar9">
+        
+    </div>
+    <div class="matrice-secound-container">
+    <input type="number" placeholder="number1" id="numar10">
+        <input type="number" placeholder="number2" id="numar11">
+        <input type="number" placeholder="number3" id="numar12">
+        <input type="number" placeholder="number4" id="numar13">
+        <input type="number" placeholder="number5" id="numar14">
+        <input type="number" placeholder="number6" id="numar15">
+    </div>
+</div>
+<div class="result">
+    <button onclick="result()">=</button>
+    <h1 id="resulttext">result</h1>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
