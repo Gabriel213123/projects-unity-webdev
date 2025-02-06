@@ -1,0 +1,75 @@
+body{
+    background-image: url('backgroundWebsite.webp');
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-height: 10000px;
+    background-color: rgba(128, 0, 128, 0.792);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+#number {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#btn{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container input::-webkit-outer-spin-button,
+.container input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.container input{
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    cursor: text;
+}
+
+.container button {
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: purple;
+    transition: 1s;
+}
+
+.container button:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+h1#ic {
+    color: red;
+    -webkit-text-stroke: 1px black;
+}
+
+h1#cr {
+    color: blueviolet;
+    -webkit-text-stroke: 1px black;
+}
