@@ -1,0 +1,25 @@
+
+
+.all {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tools {
+    background-color: gainsboro;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    background-color: rgb(201, 200, 200);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px, 10px, 10px , 10px, 10px black;
+}
